@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'lato', sans-serif; */
+}
+
+/* body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; 
+  height: 100vh;
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center; 
+}
+
+.sketch-container {
+  width: 500px;
+  height: 500px;
+  border: 2px solid darkgray;
+  border-radius: 10px;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.box {
+  width: 6.25%;
+  height: 6.25%;
+  background-color: red;
+}
