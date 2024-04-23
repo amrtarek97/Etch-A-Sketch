@@ -2,7 +2,7 @@ let container = document.querySelector('.sketch-container');
 // let boxDiv;
 
 function changeBackgroundColor(){
-    this.style.backgroundColor= "black";
+    this.style.backgroundColor= "black"
 }
 function createSquares(){
     
@@ -11,12 +11,10 @@ function createSquares(){
         boxDiv.classList.add("box");
         container.appendChild(boxDiv);
 
-        boxDiv.addEventListener('mouseover', changeBackgroundColor());
+        // boxDiv.addEventListener('mouseover', changeBackgroundColor())
     }
     
 }
-
-createSquares();
 
 let btn = document.querySelector('.create');
 
