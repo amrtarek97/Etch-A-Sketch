@@ -13,7 +13,7 @@
   height: 100vh;
 } */
 
-.container {
+/* .container {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -38,4 +38,17 @@
   width: 6.25%;
   height: 6.25%;
   background-color: red;
+} */
+
+
+/* new try */
+
+body {
+  background-color: aliceblue;
+}
+
+#sketch-area{
+  display: flex;
+  margin: 100px auto;
+  
 }
